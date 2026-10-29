@@ -1,0 +1,27 @@
+{
+  "task_id": "youcam_task_sanitized_001",
+  "task_status": "success",
+  "data": {
+    "results": {
+      "output": [
+        { "type": "all", "score": 75.13 },
+        { "type": "skin_age", "score": 28 },
+        { "type": "skin_type", "skin_type": "Combination", "region": "whole" },
+        { "type": "skin_type", "skin_type": "Oily", "region": "t_zone" },
+        { "type": "skin_type", "skin_type": "Normal", "region": "u_zone" },
+        { "type": "acne", "raw_score": 88.5, "ui_score": 92.0 },
+        { "type": "redness", "raw_score": 62.0, "ui_score": 71.0 },
+        { "type": "age_spot", "raw_score": 78.0, "ui_score": 82.0 },
+        { "type": "texture", "raw_score": 71.5, "ui_score": 77.0 },
+        { "type": "pore", "raw_score": 58.0, "ui_score": 66.0 },
+        { "type": "wrinkle", "raw_score": 82.0, "ui_score": 85.0 },
+        { "type": "moisture", "raw_score": 42.0, "ui_score": 54.0 },
+        { "type": "oiliness", "raw_score": 52.0, "ui_score": 63.0 },
+        { "type": "radiance", "raw_score": 74.0, "ui_score": 79.0 },
+        { "type": "firmness", "raw_score": 79.0, "ui_score": 83.0 },
+        { "type": "dark_circle_v2", "raw_score": 64.0, "ui_score": 72.0 },
+        { "type": "eye_bag", "raw_score": 81.0, "ui_score": 85.0 }
+      ]
+    }
+  }
+}

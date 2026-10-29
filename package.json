@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "mastra dev",
     "build": "mastra build",
-    "start": "mastra start"
+    "start": "mastra start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test --test-concurrency=1 tests/**/*.test.ts"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,9 @@
     "@mastra/libsql": "1.26.2",
     "@mastra/memory": "1.38.0",
     "@mastra/observability": "1.20.1",
+    "@mastra/pg": "^1.31.2",
+    "@supabase/supabase-js": "^2.118.0",
+    "dotenv": "^16.4.7",
     "zod": "^4.4.3"
   },
   "devDependencies": {

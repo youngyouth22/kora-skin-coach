@@ -1,0 +1,737 @@
+{
+  "version": "0.1.0",
+  "status": "draft_needs_clinical_review",
+  "note": "Conservative seed. A clinician must review every entry (and add citations) before production use.",
+  "ingredients": [
+    {
+      "id": "niacinamide",
+      "name": "Niacinamide",
+      "aliases": [
+        "nicotinamide",
+        "vitamin B3"
+      ],
+      "evidence": "moderate",
+      "typical_strength": "2-5%",
+      "time_of_day": "both",
+      "helps_with": [
+        "oiliness",
+        "pore",
+        "redness",
+        "age_spot",
+        "texture"
+      ],
+      "cautions": [
+        "Rare flushing or tingling; start at 2-5% rather than 10%."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides",
+        "zinc_oxide_spf",
+        "azelaic_acid"
+      ],
+      "ramp": "Usually fine daily from the start; patch test first.",
+      "skin_of_color_note": "Gentle option that helps post-inflammatory hyperpigmentation.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "barrier_tone"
+    },
+    {
+      "id": "azelaic_acid",
+      "name": "Azelaic acid",
+      "aliases": [],
+      "evidence": "moderate_high",
+      "typical_strength": "10-20%",
+      "time_of_day": "both",
+      "helps_with": [
+        "acne",
+        "redness",
+        "age_spot",
+        "texture"
+      ],
+      "cautions": [
+        "Tingling or itching for the first weeks; stronger strengths may be prescription-only depending on country."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "niacinamide",
+        "hyaluronic_acid",
+        "zinc_oxide_spf"
+      ],
+      "ramp": "Start every other day for 1-2 weeks.",
+      "skin_of_color_note": "Well suited to post-inflammatory hyperpigmentation and acne marks.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "multi_action"
+    },
+    {
+      "id": "salicylic_acid",
+      "name": "Salicylic acid (BHA)",
+      "aliases": [],
+      "evidence": "moderate_high",
+      "typical_strength": "0.5-2%",
+      "time_of_day": "pm",
+      "helps_with": [
+        "pore",
+        "oiliness",
+        "acne",
+        "texture"
+      ],
+      "cautions": [
+        "Dryness and irritation; not for dehydrated or damaged skin barrier; avoid stacking with other exfoliants; salicylate allergy."
+      ],
+      "pregnancy": "ask_clinician",
+      "avoid_same_routine": [
+        "retinoid",
+        "aha",
+        "benzoyl_peroxide"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides"
+      ],
+      "ramp": "Start 2 nights per week, build slowly.",
+      "skin_of_color_note": "Keep strength low to limit irritation-triggered dark marks.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "exfoliant"
+    },
+    {
+      "id": "benzoyl_peroxide",
+      "name": "Benzoyl peroxide",
+      "aliases": [],
+      "evidence": "high",
+      "typical_strength": "2.5-5%",
+      "time_of_day": "am",
+      "helps_with": [
+        "acne"
+      ],
+      "cautions": [
+        "Dryness, irritation; bleaches fabrics; can degrade some tretinoin formulations, so use at different times."
+      ],
+      "pregnancy": "ask_clinician",
+      "avoid_same_routine": [
+        "tretinoin",
+        "salicylic_acid"
+      ],
+      "pairs_well_with": [
+        "adapalene",
+        "hyaluronic_acid"
+      ],
+      "ramp": "Start with a short contact wash or every other day; lower strengths are usually as effective with less irritation.",
+      "skin_of_color_note": "Irritation can leave dark marks; prefer the lowest effective strength.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "antibacterial"
+    },
+    {
+      "id": "adapalene",
+      "name": "Adapalene",
+      "aliases": [],
+      "evidence": "high",
+      "typical_strength": "0.1% (OTC in some countries)",
+      "time_of_day": "pm",
+      "helps_with": [
+        "acne",
+        "texture",
+        "pore"
+      ],
+      "cautions": [
+        "Dryness, peeling, sun sensitivity; availability varies by country."
+      ],
+      "pregnancy": "avoid",
+      "avoid_same_routine": [
+        "aha",
+        "salicylic_acid",
+        "retinol",
+        "vitamin_c"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides",
+        "benzoyl_peroxide"
+      ],
+      "ramp": "2-3 nights per week for 2-4 weeks, then increase if comfortable; pea-sized amount.",
+      "skin_of_color_note": "Ramp slowly: irritation can cause post-inflammatory hyperpigmentation.",
+      "availability": "varies",
+      "agent_may_recommend": false,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "retinoid"
+    },
+    {
+      "id": "retinol",
+      "name": "Retinol",
+      "aliases": [
+        "vitamin A"
+      ],
+      "evidence": "moderate",
+      "typical_strength": "0.1-1%",
+      "time_of_day": "pm",
+      "helps_with": [
+        "wrinkle",
+        "texture",
+        "age_spot",
+        "radiance"
+      ],
+      "cautions": [
+        "Dryness, peeling, sun sensitivity; results take 8-12 weeks."
+      ],
+      "pregnancy": "avoid",
+      "avoid_same_routine": [
+        "aha",
+        "salicylic_acid",
+        "adapalene",
+        "vitamin_c",
+        "benzoyl_peroxide"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides",
+        "niacinamide"
+      ],
+      "ramp": "Start 2 nights per week for 2 weeks, then 3-4 nights; moisturize first if sensitive.",
+      "skin_of_color_note": "Start low and slow; irritation can darken marks.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "retinoid"
+    },
+    {
+      "id": "tretinoin",
+      "name": "Tretinoin (prescription)",
+      "aliases": [],
+      "evidence": "high",
+      "typical_strength": "prescribed",
+      "time_of_day": "pm",
+      "helps_with": [
+        "acne",
+        "wrinkle",
+        "texture",
+        "age_spot"
+      ],
+      "cautions": [
+        "Prescription medicine: only the prescriber decides starting, stopping or changing it."
+      ],
+      "pregnancy": "avoid",
+      "avoid_same_routine": [
+        "aha",
+        "salicylic_acid",
+        "retinol",
+        "benzoyl_peroxide"
+      ],
+      "pairs_well_with": [],
+      "ramp": "Follow the prescriber.",
+      "skin_of_color_note": "Follow the prescriber; ask about irritation and dark marks.",
+      "availability": "rx",
+      "agent_may_recommend": false,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "retinoid"
+    },
+    {
+      "id": "vitamin_c",
+      "name": "Vitamin C (L-ascorbic acid)",
+      "aliases": [
+        "ascorbic acid"
+      ],
+      "evidence": "moderate",
+      "typical_strength": "10-20%",
+      "time_of_day": "am",
+      "helps_with": [
+        "radiance",
+        "age_spot",
+        "texture"
+      ],
+      "cautions": [
+        "Tingling or irritation; unstable formulas oxidize (turn dark orange/brown)."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [
+        "retinol",
+        "adapalene"
+      ],
+      "pairs_well_with": [
+        "zinc_oxide_spf",
+        "hyaluronic_acid"
+      ],
+      "ramp": "Start every other morning at 10%.",
+      "skin_of_color_note": "Stable derivatives are gentler on reactive skin.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "antioxidant"
+    },
+    {
+      "id": "glycolic_acid",
+      "name": "Glycolic acid (AHA)",
+      "aliases": [],
+      "evidence": "moderate",
+      "typical_strength": "5-10%",
+      "time_of_day": "pm",
+      "helps_with": [
+        "texture",
+        "radiance",
+        "age_spot"
+      ],
+      "cautions": [
+        "Irritation, sun sensitivity; do not stack with retinoids or other exfoliants at first."
+      ],
+      "pregnancy": "ask_clinician",
+      "avoid_same_routine": [
+        "retinol",
+        "adapalene",
+        "salicylic_acid",
+        "lactic_acid"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid"
+      ],
+      "ramp": "Once per week, then up to 2-3 times if comfortable; daily sunscreen.",
+      "skin_of_color_note": "Higher risk of irritation-triggered dark marks: choose lower strengths.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "exfoliant"
+    },
+    {
+      "id": "lactic_acid",
+      "name": "Lactic acid (AHA)",
+      "aliases": [],
+      "evidence": "moderate",
+      "typical_strength": "5-10%",
+      "time_of_day": "pm",
+      "helps_with": [
+        "texture",
+        "radiance",
+        "moisture"
+      ],
+      "cautions": [
+        "Milder than glycolic acid but still photosensitizing."
+      ],
+      "pregnancy": "ask_clinician",
+      "avoid_same_routine": [
+        "retinol",
+        "adapalene",
+        "salicylic_acid",
+        "glycolic_acid"
+      ],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides"
+      ],
+      "ramp": "Once per week to start.",
+      "skin_of_color_note": "Gentler AHA choice.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "exfoliant"
+    },
+    {
+      "id": "hyaluronic_acid",
+      "name": "Hyaluronic acid",
+      "aliases": [],
+      "evidence": "moderate",
+      "typical_strength": "0.1-2%",
+      "time_of_day": "both",
+      "helps_with": [
+        "moisture"
+      ],
+      "cautions": [
+        "Works best on slightly damp skin and sealed with a moisturizer."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "ceramides",
+        "niacinamide",
+        "glycerin"
+      ],
+      "ramp": "Daily from the start.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "humectant"
+    },
+    {
+      "id": "glycerin",
+      "name": "Glycerin",
+      "aliases": [],
+      "evidence": "moderate_high",
+      "typical_strength": "3-10%",
+      "time_of_day": "both",
+      "helps_with": [
+        "moisture"
+      ],
+      "cautions": [
+        "None significant."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides"
+      ],
+      "ramp": "Daily.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "humectant"
+    },
+    {
+      "id": "ceramides",
+      "name": "Ceramides",
+      "aliases": [],
+      "evidence": "moderate_high",
+      "typical_strength": "moisturizer ingredient",
+      "time_of_day": "both",
+      "helps_with": [
+        "moisture",
+        "redness"
+      ],
+      "cautions": [
+        "None significant."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "niacinamide",
+        "glycerin"
+      ],
+      "ramp": "Daily.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "barrier_lipid"
+    },
+    {
+      "id": "panthenol",
+      "name": "Panthenol (vitamin B5)",
+      "aliases": [
+        "provitamin B5"
+      ],
+      "evidence": "moderate",
+      "typical_strength": "1-5%",
+      "time_of_day": "both",
+      "helps_with": [
+        "moisture",
+        "redness"
+      ],
+      "cautions": [
+        "None significant."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides"
+      ],
+      "ramp": "Daily.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "soothing"
+    },
+    {
+      "id": "zinc_oxide_spf",
+      "name": "Mineral sunscreen (zinc oxide / titanium dioxide)",
+      "aliases": [],
+      "evidence": "high",
+      "typical_strength": "SPF 30+ broad-spectrum",
+      "time_of_day": "am",
+      "helps_with": [
+        "age_spot",
+        "redness",
+        "wrinkle",
+        "radiance"
+      ],
+      "cautions": [
+        "Can leave a white cast; reapply every 2 hours in direct sun."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "niacinamide",
+        "vitamin_c"
+      ],
+      "ramp": "Every morning, last step; reapply when outdoors.",
+      "skin_of_color_note": "Tinted formulas with iron oxides also help protect against visible-light-related darkening and reduce white cast.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "sunscreen"
+    },
+    {
+      "id": "chemical_uv_filters",
+      "name": "Chemical sunscreen filters",
+      "aliases": [],
+      "evidence": "high",
+      "typical_strength": "SPF 30+ broad-spectrum",
+      "time_of_day": "am",
+      "helps_with": [
+        "age_spot",
+        "redness",
+        "wrinkle",
+        "radiance"
+      ],
+      "cautions": [
+        "May sting near the eyes; reapply every 2 hours in direct sun."
+      ],
+      "pregnancy": "ask_clinician",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "niacinamide",
+        "vitamin_c"
+      ],
+      "ramp": "Every morning, last step.",
+      "skin_of_color_note": "Often lighter on deeper skin tones (no white cast).",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "sunscreen"
+    },
+    {
+      "id": "tranexamic_acid",
+      "name": "Tranexamic acid (topical)",
+      "aliases": [],
+      "evidence": "emerging",
+      "typical_strength": "2-5%",
+      "time_of_day": "both",
+      "helps_with": [
+        "age_spot"
+      ],
+      "cautions": [
+        "Evidence is still emerging; best as an adjunct to sunscreen and other measures."
+      ],
+      "pregnancy": "ask_clinician",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "niacinamide",
+        "zinc_oxide_spf"
+      ],
+      "ramp": "Daily if tolerated.",
+      "skin_of_color_note": "Studied for melasma and post-inflammatory hyperpigmentation.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "pigment"
+    },
+    {
+      "id": "hydroquinone",
+      "name": "Hydroquinone",
+      "aliases": [],
+      "evidence": "high",
+      "typical_strength": "regulated",
+      "time_of_day": "pm",
+      "helps_with": [
+        "age_spot"
+      ],
+      "cautions": [
+        "Regulated or prescription in many places; prolonged unsupervised use can cause paradoxical darkening (ochronosis). Never use unlabeled lightening creams (mercury, steroids)."
+      ],
+      "pregnancy": "avoid",
+      "avoid_same_routine": [],
+      "pairs_well_with": [],
+      "ramp": "Only under a clinician's guidance.",
+      "skin_of_color_note": "Do not self-treat; unregulated lightening products are a real safety risk.",
+      "availability": "rx",
+      "agent_may_recommend": false,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "pigment"
+    },
+    {
+      "id": "caffeine_eye",
+      "name": "Caffeine (eye products)",
+      "aliases": [],
+      "evidence": "limited",
+      "typical_strength": "0.5-3%",
+      "time_of_day": "both",
+      "helps_with": [
+        "eye_bag",
+        "dark_circle_v2"
+      ],
+      "cautions": [
+        "Only a temporary de-puffing effect; does not change the structure under the eye."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "zinc_oxide_spf"
+      ],
+      "ramp": "Daily if you like the feel.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "eye_care"
+    },
+    {
+      "id": "peptides",
+      "name": "Peptides",
+      "aliases": [],
+      "evidence": "limited",
+      "typical_strength": "product-dependent",
+      "time_of_day": "both",
+      "helps_with": [
+        "wrinkle",
+        "firmness"
+      ],
+      "cautions": [
+        "Modest effects; evidence varies by peptide."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "niacinamide"
+      ],
+      "ramp": "Daily.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "anti_aging"
+    },
+    {
+      "id": "squalane",
+      "name": "Squalane",
+      "aliases": [],
+      "evidence": "moderate",
+      "typical_strength": "moisturizer ingredient",
+      "time_of_day": "both",
+      "helps_with": [
+        "moisture"
+      ],
+      "cautions": [
+        "None significant."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "ceramides"
+      ],
+      "ramp": "Daily.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "emollient"
+    },
+    {
+      "id": "urea",
+      "name": "Urea",
+      "aliases": [],
+      "evidence": "moderate_high",
+      "typical_strength": "5-10%",
+      "time_of_day": "both",
+      "helps_with": [
+        "moisture",
+        "texture"
+      ],
+      "cautions": [
+        "Can sting on broken or very irritated skin."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "ceramides",
+        "glycerin"
+      ],
+      "ramp": "Daily on dry or rough areas.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "humectant"
+    },
+    {
+      "id": "centella_asiatica",
+      "name": "Centella asiatica (cica)",
+      "aliases": [],
+      "evidence": "limited",
+      "typical_strength": "product-dependent",
+      "time_of_day": "both",
+      "helps_with": [
+        "redness"
+      ],
+      "cautions": [
+        "Evidence is limited."
+      ],
+      "pregnancy": "generally_ok",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "ceramides",
+        "hyaluronic_acid",
+        "panthenol"
+      ],
+      "ramp": "Daily.",
+      "skin_of_color_note": "Suitable for all skin tones.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "soothing"
+    },
+    {
+      "id": "bakuchiol",
+      "name": "Bakuchiol",
+      "aliases": [],
+      "evidence": "limited",
+      "typical_strength": "0.5-1%",
+      "time_of_day": "both",
+      "helps_with": [
+        "wrinkle",
+        "texture"
+      ],
+      "cautions": [
+        "Evidence is limited; pregnancy data is lacking."
+      ],
+      "pregnancy": "ask_clinician",
+      "avoid_same_routine": [],
+      "pairs_well_with": [
+        "hyaluronic_acid",
+        "niacinamide"
+      ],
+      "ramp": "Daily if tolerated.",
+      "skin_of_color_note": "A gentler option when retinoids irritate.",
+      "availability": "otc",
+      "agent_may_recommend": true,
+      "review_status": "draft_needs_clinical_review",
+      "citations": [],
+      "class": "retinol_alternative"
+    }
+  ]
+}
