@@ -280,7 +280,9 @@ export const mastra = new Mastra({
     id: 'composite-storage',
     default: resolveStorage(),
     domains: {
-      observability: await new DuckDBStore().getStore('observability'),
+      observability: await new DuckDBStore({
+        path: process.env.DUCKDB_PATH || 'mastra.duckdb',
+      }).getStore('observability'),
     },
   }),
   observability: new Observability({

@@ -16,6 +16,9 @@ RUN npm run build
 
 # Production runtime stage
 FROM node:22-slim
+
+# Prepare directory and ensure node user has write permissions
+RUN mkdir -p /app && chown -R node:node /app
 WORKDIR /app
 
 ENV NODE_ENV=production \
@@ -24,6 +27,9 @@ ENV NODE_ENV=production \
 
 # Copy compiled standalone bundle from build stage with node user ownership
 COPY --from=build --chown=node:node /app/.mastra/output ./
+
+# Ensure /app and its contents are owned by node user
+RUN chown -R node:node /app
 
 # Run as non-root user for container security
 USER node
